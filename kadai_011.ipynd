@@ -1,0 +1,67 @@
+{
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "array = [\"水\", \"金\", \"地\", \"火\", \"木\", \"土\", \"天\", \"海\", \"冥\"]\n",
+        "\n",
+        "\n",
+        "for element in array:\n",
+        "    print(element)\n",
+        "\n",
+        "\n",
+        "i = 0\n",
+        "while i < len(array):\n",
+        "    print(array[i])\n",
+        "    i += 1\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PYtHWgMPYlBX",
+        "outputId": "34329a35-6fd4-4c55-e8b5-ad576917d499"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "水\n",
+            "金\n",
+            "地\n",
+            "火\n",
+            "木\n",
+            "土\n",
+            "天\n",
+            "海\n",
+            "冥\n",
+            "水\n",
+            "金\n",
+            "地\n",
+            "火\n",
+            "木\n",
+            "土\n",
+            "天\n",
+            "海\n",
+            "冥\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Colaboratory へようこそ",
+      "toc_visible": true,
+      "provenance": []
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
